@@ -28,16 +28,4 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
 
 ## ⌛️ SLAM
 1) Run SLAM to generate dataset
-2) `ros2 launch ngp_ros2 slam.launch.py \
-rgb_topic:=/zed2i/zed_node/rgb/image_rect_color \
-depth_topic:=/zed2i/zed_node/depth/depth_registered \
-camera_info_topic:=/zed2i/zed_node/rgb/camera_info \
-odom_topic:=/zed2i/zed_node/odom \
-imu_topic:=/zed2i/zed_node/imu/data \
-scan_cloud_topic:=/zed2i/zed_node/point_cloud/cloud_registered \
-superpoint_model_path:=/home/hari/SP_SG_weights/SuperPointPretrainedNetwork/superpoint_v1.pt \
-pydetector_path:=/home/hari/SP_SG_weights/SuperPointPretrainedNetwork/rtabmap_superpoint.py \
-pymatcher_path:=/home/hari/SP_SG_weights/SuperGluePretrainedNetwork/rtabmap_superglue.py \
-detection_rate:=1 \
-image_path:=/home/hari/slam_ws/src/ngp_ros2/dataLoader/images/ \
-transform_path:=/home/hari/slam_ws/src/ngp_ros2/dataLoader/transforms.json`
+2) `ros2 launch ngp_ros2 slam.launch.py rgb_topic:=/zed2i/zed_node/rgb/image_rect_color depth_topic:=/zed2i/zed_node/depth/depth_registered camera_info_topic:=/zed2i/zed_node/rgb/camera_info odom_topic:=/zed2i/zed_node/odom imu_topic:=/zed2i/zed_node/imu/data scan_cloud_topic:=/zed2i/zed_node/point_cloud/cloud_registered superpoint_model_path:=../SuperPointPretrainedNetwork/superpoint_v1.pt pydetector_path:=../rtabmap_superpoint.py pymatcher_path:=../rtabmap_superglue.py detection_rate:=1 image_path:=../images/ transform_path:=../transforms.json`
