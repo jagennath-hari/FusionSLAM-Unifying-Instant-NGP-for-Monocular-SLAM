@@ -13,3 +13,4 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
 8) RTAB-Map ([Official Github Link](https://github.com/introlab/rtabmap))
 9) RTAB-Map ROS 2 ([Official Github Link](https://github.com/introlab/rtabmap_ros/tree/ros2#rtabmap_ros))
 10) PyTorch ([Official Link](https://pytorch.org/))
+11) Instant-ngp ([Official Github Link](https://github.com/NVlabs/instant-ngp))
