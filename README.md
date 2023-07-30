@@ -35,4 +35,8 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
     <p>Instance Cloud</p>
 </div>
 
-Your dataset should get created in the `image_path` along with transforms.json in the `transform_path`
+Your dataset should get created in the `image_path` along with `transforms.json` in the `transform_path`
+
+## 🖼️ Instant-NGP
+1) `cd /instant-ngp/build`
+2) `./instant-ngp ../PATH` give the path to your dataset where `image_path` and `transforms.json` are located 
