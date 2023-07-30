@@ -16,6 +16,7 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
 11) Instant-ngp ([Official Github Link](https://github.com/NVlabs/instant-ngp))
 12) SuperPoint ([Official Github Link](https://github.com/magicleap/SuperPointPretrainedNetwork))
 13) SuperGlue ([Official Github Link](https://github.com/magicleap/SuperGluePretrainedNetwork))
+14) Nlohmann-JSON ([Official Github](https://github.com/nlohmann/json))
 
 ## ⚙️ Install
 1) Install all non ROS 2 libraries
