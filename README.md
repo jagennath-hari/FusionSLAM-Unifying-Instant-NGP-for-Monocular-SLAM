@@ -45,3 +45,6 @@ Your dataset should get created in the `image_path` along with `transforms.json`
     <img src="assets/nerf.png" alt="SLAM" width="700"/>
     <p>NERF</p>
 </div>
+
+## ⚠️ Note
+Ensure ZED ROS 2 Wrapper is set to run using Neural Depth Mode and Image quality is set to HD1080 for best renders
