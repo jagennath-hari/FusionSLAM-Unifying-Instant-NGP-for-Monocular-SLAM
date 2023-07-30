@@ -15,9 +15,8 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
 10) PyTorch ([Official Link](https://pytorch.org/))
 11) Instant-ngp ([Official Github Link](https://github.com/NVlabs/instant-ngp))
 
-## ⚙️ To Use
+## ⚙️ Install
 1) Clone all ROS 2 packages into workspace
-2) Clone 
+2) Clone reporsitory into ROS 2 workspace
 3) `colcon build --symlink-install --cmake-args -DRTABMAP_SYNC_MULTI_RGBD=ON -DRTABMAP_SYNC_USER_DATA=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc) --executor sequential`
 4) `source ~/.bashrc` or source ROS 2 workspace
-5) 
