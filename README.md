@@ -15,6 +15,7 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
 10) PyTorch ([Official Link](https://pytorch.org/))
 11) Instant-ngp ([Official Github Link](https://github.com/NVlabs/instant-ngp))
 12) SuperPoint ([Official Github Link](https://github.com/magicleap/SuperPointPretrainedNetwork))
+13) SuperGlue ([Official Github Link](https://github.com/magicleap/SuperGluePretrainedNetwork))
 
 ## ⚙️ Install
 1) Install all non ROS 2 libraries
