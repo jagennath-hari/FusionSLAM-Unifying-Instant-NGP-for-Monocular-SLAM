@@ -23,3 +23,4 @@ Dive into cutting-edge FusionSLAM, where SuperPoint, SuperGlue, Neural Depth Est
 3) Clone reporsitory into ROS 2 workspace
 4) `colcon build --symlink-install --cmake-args -DRTABMAP_SYNC_MULTI_RGBD=ON -DRTABMAP_SYNC_USER_DATA=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCMAKE_BUILD_TYPE=Release --parallel-workers $(nproc) --executor sequential`
 5) `source ~/.bashrc` or source ROS 2 workspace
+6) Run `python trace.py` and change path of SuperPoint weights, this will generate a model compatible with your version of PyTorch
