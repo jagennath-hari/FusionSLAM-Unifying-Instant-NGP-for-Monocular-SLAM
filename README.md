@@ -47,4 +47,10 @@ Your dataset should get created in the `image_path` along with `transforms.json`
 </div>
 
 ## ⚠️ Note
-Ensure ZED ROS 2 Wrapper is set to run using Neural Depth Mode and Image quality is set to HD1080 for best renders
+1) Ensure ZED ROS 2 Wrapper is set to run using Neural Depth Mode and Image quality is set to HD1080 for best renders
+2) This Render uses Depth Supervision, feel free to change RTAB-Map and instant-ngp parameters to generate better renders
+
+## 🔮 Future Updates
+1) Use Pose-Graph from RTAB-Map to include loop closures for better renders
+2) Add Segmentation masks using Semantic Segmentation Network
+3) Generate render using Multi-camera SLAM
